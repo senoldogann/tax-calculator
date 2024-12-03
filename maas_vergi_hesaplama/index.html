@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Tax Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Salary Tax Calculator (Finland)</h1>
+        <form id="salaryForm">
+            <label for="grossSalary">Gross Salary (EUR):</label>
+            <input type="number" id="grossSalary" placeholder="Example: 50000" required>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="results" class="hidden">
+            <h2>Results</h2>
+            <p><strong>Gross Salary:</strong> <span id="grossSalaryResult"></span> €</p>
+            <p><strong>National Tax:</strong> <span id="nationalTaxResult"></span> €</p>
+            <p><strong>Municipal Tax:</strong> <span id="municipalTaxResult"></span> €</p>
+            <p><strong>Social Security Contribution:</strong> <span id="socialSecurityResult"></span> €</p>
+            <p><strong>Pension Contribution:</strong> <span id="pensionResult"></span> €</p>
+            <p><strong>Unemployment Insurance:</strong> <span id="unemploymentResult"></span> €</p
